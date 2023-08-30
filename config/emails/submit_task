@@ -1,0 +1,38 @@
+## Workflow task email message
+##
+## {0}  Title of submission
+## {1}  Name of collection
+## {2}  submitter's name
+## {3}  Description of task
+## {4}  link to 'my DSpace' page
+##
+#set($subject = 'DSpace: You have a new task')
+set($subject = 'LifeWatch Italy Data Portal - A new data record has been created.')
+
+Dear administrator,
+
+a new data record has been created from the user ${params[2]},
+
+Click ${params[4]} to see it and assign the reviewer for the taxonomic or semantic check.
+
+
+
+Best regards,
+
+LifeWatch Italy
+
+
+## A new item has been submitted:
+##
+## Title:        ${params[0]}
+## Collection:   ${params[1]}
+## Submitted by: ${params[2]}
+##
+## ${params[3]}
+##
+## To claim this task, please visit your "My DSpace"
+## page:  ${params[4]}
+##
+## Many thanks!
+
+## DSpace

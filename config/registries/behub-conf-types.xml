@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<dspace-dc-types>
+
+  <dspace-header>
+    <title>Registry of BEHUB System Configuration metadata fields</title>
+    <contributor.author>AC</contributor.author>
+  </dspace-header>
+
+  <dc-schema>
+    <name>conf</name>
+    <namespace>http://dspace.org/namespace/conf/</namespace>
+  </dc-schema>
+
+  <dc-type>
+    <schema>conf</schema>
+    <element>statistic</element>
+    <qualifier>name</qualifier>
+    <scope_note>Identifier name of statistical item to configure.</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>conf</schema>
+    <element>statistic</element>
+    <qualifier>download</qualifier>
+    <scope_note>Enables/disables statistic download.</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>conf</schema>
+    <element>statistic</element>
+    <qualifier>display</qualifier>
+    <scope_note>Shows/hides statistic item.</scope_note>
+  </dc-type>
+   <dc-type>
+    <schema>conf</schema>
+    <element>facet</element>
+    <qualifier>name</qualifier>
+    <scope_note>Name of facet item to configure.</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>conf</schema>
+    <element>facet</element>
+    <qualifier>display</qualifier>
+    <scope_note>Shows/hides facet filter.</scope_note>
+  </dc-type>
+  <dc-type>
+    <schema>conf</schema>
+    <element>facet</element>
+    <qualifier>configuration</qualifier>
+    <scope_note>Configuration string of facet filter.</scope_note>
+  </dc-type>
+
+</dspace-dc-types>

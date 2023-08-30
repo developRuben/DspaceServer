@@ -1,0 +1,137 @@
+<dspace-dc-types >
+
+	<dspace-header>
+		<title>DSpace eml-dataTable Schema</title>
+		<contributor.author>AC</contributor.author>
+	</dspace-header>
+
+	<dc-schema>
+		<name>dataTable</name>
+		<namespace>https://eml.ecoinformatics.org/dataTable-2.2.0</namespace>
+	</dc-schema>
+	
+
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>entityName</element>
+	</dc-type>
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>entityType</element>
+	</dc-type>
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>entityDescription</element>
+	</dc-type>
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>caseSensitive</element>
+	</dc-type>
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>numberOfRecords</element>
+	</dc-type>
+	<!-- physical -->
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>physical</element>
+		<qualifier>objectName</qualifier>
+	</dc-type>
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>physical</element>
+		<qualifier>size</qualifier>
+	</dc-type>
+    <dc-type>
+        <schema>dataTable</schema>
+        <element>physical</element>
+        <qualifier>characterEncoding</qualifier>
+    </dc-type>	
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>physical</element>
+		<qualifier>authentication</qualifier>
+	</dc-type>	
+	
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>physical</element>
+		<qualifier>dataFormat</qualifier>
+	</dc-type>		
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>physical</element>
+		<qualifier>formatName</qualifier>
+	</dc-type>		
+	
+	
+	
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>physical</element>
+		<qualifier>textFormat</qualifier>
+	</dc-type>
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>physical</element>
+		<qualifier>numHeaderLines</qualifier>
+	</dc-type>
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>physical</element>
+		<qualifier>recordDelimiter</qualifier>
+	</dc-type>
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>physical</element>
+		<qualifier>fieldDelimiter</qualifier>
+	</dc-type>				
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>physical</element>
+		<qualifier>quoteCharacter</qualifier>
+	</dc-type>		
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>physical</element>
+		<qualifier>attributeOrientation</qualifier>
+	</dc-type>		
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>physical</element>
+		<qualifier>distribution</qualifier>
+	</dc-type>	
+<!-- 	attributeList -->
+
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>attributeList</element>
+	</dc-type>
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>attribute</element>
+		<qualifier>attributeName</qualifier>
+	</dc-type>
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>attribute</element>
+		<qualifier>attributeLabel</qualifier>
+	</dc-type>
+	
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>attribute</element>
+		<qualifier>storageType</qualifier>
+	</dc-type>	
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>attribute</element>
+		<qualifier>measurementScale</qualifier>
+	</dc-type>		
+	<dc-type>
+		<schema>dataTable</schema>
+		<element>alternateIdentifier</element>
+	</dc-type>	
+	
+
+</dspace-dc-types>

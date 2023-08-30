@@ -1,0 +1,4 @@
+2023-07-21 10:51:58,104 INFO  unknown unknown org.dspace.app.sitemap.GenerateSitemaps @ anonymous::write_sitemap:type=html,num_files=0,communities=0,collections=0,items=0
+2023-07-21 10:51:58,114 INFO  unknown unknown org.dspace.app.sitemap.GenerateSitemaps @ anonymous::write_sitemap:type=html,num_files=0,communities=0,collections=0,items=0
+2023-07-21 11:51:57,576 INFO  unknown unknown org.dspace.app.solrdatabaseresync.SolrDatabaseResyncCli @ Starting Item resync of Solr and Database...
+2023-07-21 11:51:57,684 INFO  unknown unknown org.dspace.app.solrdatabaseresync.SolrDatabaseResyncCli @ 0 items found to process

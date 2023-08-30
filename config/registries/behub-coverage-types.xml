@@ -1,0 +1,94 @@
+<dspace-dc-types>
+
+	<dspace-header>
+		<title>DSpace eml-coverage Schema</title>
+		<contributor.author>AC</contributor.author>
+	</dspace-header>
+
+	<dc-schema>
+		<name>coverage</name>
+		<namespace>https://eml.ecoinformatics.org/coverage-2.2.0</namespace>
+	</dc-schema>
+
+	<!-- 	geographicCoverage -->
+	<dc-type>
+		<schema>coverage</schema>
+		<element>geographic</element>
+	</dc-type>
+	<dc-type>
+		<schema>coverage</schema>
+		<element>geographicDescription</element>
+	</dc-type>
+	<dc-type>
+		<schema>coverage</schema>
+		<element>boundingCoordinates</element>
+		<qualifier>westBoundingCoordinate</qualifier>
+	</dc-type>
+	<dc-type>
+		<schema>coverage</schema>
+		<element>boundingCoordinates</element>
+		<qualifier>southBoundingCoordinate</qualifier>
+	</dc-type>
+	<dc-type>
+		<schema>coverage</schema>
+		<element>boundingCoordinates</element>
+		<qualifier>eastBoundingCoordinate</qualifier>
+	</dc-type>
+	<dc-type>
+		<schema>coverage</schema>
+		<element>boundingCoordinates</element>
+		<qualifier>northBoundingCoordinate</qualifier>
+	</dc-type>
+	<dc-type>
+		<schema>coverage</schema>
+		<element>datasetGPolygon</element>
+		<qualifier>datasetGPolygonOuterGRing</qualifier>
+	</dc-type>
+	<dc-type>
+		<schema>coverage</schema>
+		<element>datasetGPolygonOuterGRing</element>
+		<qualifier>gRingPoint</qualifier>
+	</dc-type>
+
+	<!-- 	temporalCoverage -->
+	<dc-type>
+		<schema>coverage</schema>
+		<element>temporal</element>
+	</dc-type>
+	<dc-type>
+		<schema>coverage</schema>
+		<element>rangeOfDates</element>
+		<qualifier>beginDate</qualifier>
+	</dc-type>
+	<dc-type>
+		<schema>coverage</schema>
+		<element>rangeOfDates</element>
+		<qualifier>endDate</qualifier>
+	</dc-type>
+
+	<!-- 	taxonomicCoverage -->
+	<dc-type>
+		<schema>coverage</schema>
+		<element>generalTaxonomicCoverage</element>
+	</dc-type>
+	<dc-type>
+		<schema>coverage</schema>
+		<element>taxonomicClassification</element>
+	</dc-type>
+	<dc-type>
+		<schema>coverage</schema>
+		<element>taxonRankName</element>
+	</dc-type>
+	<dc-type>
+		<schema>coverage</schema>
+		<element>taxonRankValue</element>
+	</dc-type>
+	<dc-type>
+		<schema>coverage</schema>
+		<element>commonName</element>
+	</dc-type>
+	<dc-type>
+		<schema>coverage</schema>
+		<element>taxonId</element>
+	</dc-type>
+</dspace-dc-types>

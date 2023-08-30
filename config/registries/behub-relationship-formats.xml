@@ -1,0 +1,94 @@
+<dspace-dc-types>
+
+    <dspace-header>
+        <title>BeHub Entity Relationships</title>
+    </dspace-header>
+
+    <dc-schema>
+        <name>relation</name>
+         <namespace>http://dspace.org/relation</namespace>
+    </dc-schema>
+
+     <dc-type>
+        <schema>relation</schema>
+        <element>isIndividualNameOfParty</element>
+        <scope_note>Contains all uuids of the "latest" AUTHORS that the current PUBLICATION links to via a relationship. In other words, this stores all relationships pointing from the current PUBLICATION to any AUTHOR where the AUTHOR is marked as "latest". Internally used by DSpace. Do not manually add, remove or edit values.</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>relation</schema>
+        <element>isIndividualNameOfParty</element>
+        <qualifier>latestForDiscovery</qualifier>
+        <scope_note>Contains all uuids of AUTHORS which link to the current PUBLICATION via a "latest" relationship.</scope_note>
+    </dc-type>
+
+    <dc-type>
+        <schema>relation</schema>
+        <element>isCreatorOfDataset</element>
+        <scope_note></scope_note>Contains all uuids of the "latest" CREATOR party that the current DATASET links to via a relationship.
+    </dc-type>
+    <dc-type>
+        <schema>relation</schema>
+        <element>isCreatorOfDataset</element>
+        <qualifier>latestForDiscovery</qualifier>
+        <scope_note>Contains all uuids of CREATOR party which link to the current DATASET via a "latest" relationship.</scope_note>
+    </dc-type>
+
+    <dc-type>
+        <schema>relation</schema>
+        <element>isProviderOfDataset</element>
+        <scope_note>Contains all uuids of the "latest" PROVIDER that the current DATASET links to via a relationship. In other words, this stores all relationships pointing from the current PUBLICATION to any AUTHOR where the AUTHOR is marked as "latest". Internally used by DSpace. Do not manually add, remove or edit values.</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>relation</schema>
+        <element>isProviderOfDataset</element>
+        <qualifier>latestForDiscovery</qualifier>
+        <scope_note>Contains all uuids of PROVIDER which link to the current DATASET via a "latest" relationship.</scope_note>
+    </dc-type>
+
+    <dc-type>
+        <schema>relation</schema>
+        <element>isContactOfDataset</element>
+        <scope_note>Contains all uuids of the "latest" CONTACT that the current DATASET links to via a relationship. In other words, this stores all relationships pointing from the current PUBLICATION to any AUTHOR where the AUTHOR is marked as "latest". Internally used by DSpace. Do not manually add, remove or edit values.</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>relation</schema>
+        <element>isContactOfDataset</element>
+        <qualifier>latestForDiscovery</qualifier>
+        <scope_note>Contains all uuids of CONTACT which link to the current DATASET via a "latest" relationship.</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>relation</schema>
+        <element>isPublisherOfDataset</element>
+        <scope_note>Contains all uuids of the "latest" PUBLISHER that the current DATASET links to via a relationship. In other words, this stores all relationships pointing from the current PUBLICATION to any AUTHOR where the AUTHOR is marked as "latest". Internally used by DSpace. Do not manually add, remove or edit values.</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>relation</schema>
+        <element>isPublisherOfDataset</element>
+        <qualifier>latestForDiscovery</qualifier>
+        <scope_note>Contains all uuids of PUBLISHER which link to the current DATASET via a "latest" relationship.</scope_note>
+    </dc-type>
+        
+    <dc-type>
+        <schema>relation</schema>
+        <element>isProjectOfDataset</element>
+        <scope_note>Contains all uuids of the "latest" PERSONNEL that the current PROJECT.DATASET links to via a relationship. In other words, this stores all relationships pointing from the current PUBLICATION to any AUTHOR where the AUTHOR is marked as "latest". Internally used by DSpace. Do not manually add, remove or edit values.</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>relation</schema>
+        <element>isProjectOfDataset</element>
+        <qualifier>latestForDiscovery</qualifier>
+        <scope_note>Contains all uuids of PERSONNEL which link to the current PROJECT.DATASET via a "latest" relationship.</scope_note>
+    </dc-type>    
+
+    <dc-type>
+        <schema>relation</schema>
+        <element>isAssociatedPartyOfDataset</element>
+        <scope_note>Contains all uuids of the "latest" PARTY that the current ASSOCIATEDPARTY.DATASET links to via a relationship. In other words, this stores all relationships pointing from the current PUBLICATION to any AUTHOR where the AUTHOR is marked as "latest". Internally used by DSpace. Do not manually add, remove or edit values.</scope_note>
+    </dc-type>
+    <dc-type>
+        <schema>relation</schema>
+        <element>isAssociatedPartyOfDataset</element>
+        <qualifier>latestForDiscovery</qualifier>
+        <scope_note>Contains all uuids of PARTY which link to the current ASSOCIATEDPARTY.DATASET via a "latest" relationship.</scope_note>
+    </dc-type>  
+</dspace-dc-types>

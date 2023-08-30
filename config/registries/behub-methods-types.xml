@@ -1,0 +1,21 @@
+<dspace-dc-types>
+
+	<dspace-header>
+		<title>DSpace eml-dataset Schema</title>
+		<contributor.author>AC</contributor.author>
+	</dspace-header>
+
+	<dc-schema>
+		<name>methods</name>
+		<namespace>https://eml.ecoinformatics.org/methods-2.2.0</namespace>
+	</dc-schema>
+
+
+	<dc-type>
+		<schema>methods</schema>
+		<element>methodStep</element>
+		<qualifier>description</qualifier>
+	</dc-type>
+	
+
+</dspace-dc-types>

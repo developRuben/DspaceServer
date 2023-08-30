@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<import_structure>
+  <community identifier="123456789/69">
+    <name>System Community</name>
+    <description />
+    <intro />
+    <copyright />
+    <sidebar />
+    <collection identifier="123456789/70">
+      <name>Facet Configuration</name>
+      <description />
+      <intro />
+      <copyright />
+      <sidebar />
+      <license />
+    </collection>
+    <collection identifier="123456789/80">
+      <name>Statistics Configuration</name>
+      <description />
+      <intro />
+      <copyright />
+      <sidebar />
+      <license />
+    </collection>    
+    <collection identifier="123456789/81">
+      <name>About Page Configuration</name>
+      <description />
+      <intro />
+      <copyright />
+      <sidebar />
+      <license />
+    </collection>  
+  </community>
+</import_structure>

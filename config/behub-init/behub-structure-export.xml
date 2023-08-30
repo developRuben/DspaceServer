@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<import_structure>
+  <community identifier="123456789/58">
+    <name>Life Watch Italy Community</name>
+    <description />
+    <intro />
+    <copyright />
+    <sidebar />
+    <collection identifier="123456789/67">
+      <name>Dataset</name>
+      <description />
+      <intro />
+      <copyright />
+      <sidebar />
+      <license />
+    </collection>
+  </community>
+  <community identifier="123456789/63">
+    <name>LWI Related Objects</name>
+    <description />
+    <intro />
+    <copyright />
+    <sidebar />
+    <collection identifier="123456789/65">
+      <name>Party</name>
+      <description />
+      <intro />
+      <copyright />
+      <sidebar />
+      <license />
+    </collection>
+    <collection identifier="123456789/64">
+      <name>People</name>
+      <description />
+      <intro />
+      <copyright />
+      <sidebar />
+      <license />
+    </collection>
+  </community>
+</import_structure>

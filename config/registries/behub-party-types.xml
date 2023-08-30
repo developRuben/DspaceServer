@@ -1,0 +1,94 @@
+<dspace-dc-types>
+
+	<dspace-header>
+		<title>DSpace eml-party Schema</title>
+		<contributor.author>AC</contributor.author>
+	</dspace-header>
+
+	<dc-schema>
+		<name>party</name>
+		<namespace>https://eml.ecoinformatics.org/party-2.2.0</namespace>
+	</dc-schema>
+
+
+	<dc-type>
+		<schema>party</schema>
+		<element>electronicMailAddress</element>
+	</dc-type>
+		<dc-type>
+		<schema>party</schema>
+		<element>phone</element>
+	</dc-type>
+	<dc-type>
+		<schema>party</schema>
+		<element>positionName</element>
+	</dc-type>
+	<dc-type>
+		<schema>party</schema>
+		<element>organizationName</element>
+	</dc-type>
+	<dc-type>
+		<schema>party</schema>
+		<element>onlineUrl</element>
+		<qualifier></qualifier>
+	</dc-type>	
+	<dc-type>
+		<schema>party</schema>
+		<element>userId</element>
+		<qualifier></qualifier>
+	</dc-type>
+	<dc-type>
+		<schema>party</schema>
+		<element>userId</element>
+		<qualifier>directory</qualifier>
+	</dc-type>		
+	<dc-type>
+		<schema>party</schema>
+		<element>individualName</element>
+	</dc-type>
+	
+	<dc-type>
+		<schema>party</schema>
+		<element>Person</element>
+		<qualifier>givenName</qualifier>
+	</dc-type>
+	<dc-type>
+		<schema>party</schema>
+		<element>Person</element>
+		<qualifier>surName</qualifier>
+	</dc-type>
+	<dc-type>
+		<schema>party</schema>
+		<element>Person</element>
+		<qualifier>salutation</qualifier>
+	</dc-type>
+
+	<dc-type>
+		<schema>party</schema>
+		<element>Address</element>
+		<qualifier>deliveryPoint</qualifier>
+	</dc-type>
+	<dc-type>
+		<schema>party</schema>
+		<element>Address</element>
+		<qualifier>city</qualifier>
+	</dc-type>
+	<dc-type>
+		<schema>party</schema>
+		<element>Address</element>
+		<qualifier>administrativeArea</qualifier>
+	</dc-type>	
+	<dc-type>
+		<schema>party</schema>
+		<element>Address</element>
+		<qualifier>postalCode</qualifier>
+	</dc-type>		
+	<dc-type>
+		<schema>party</schema>
+		<element>Address</element>
+		<qualifier>country</qualifier>
+	</dc-type>	
+	
+	
+		
+</dspace-dc-types>

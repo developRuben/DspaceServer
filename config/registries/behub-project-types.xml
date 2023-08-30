@@ -1,0 +1,58 @@
+<dspace-dc-types>
+
+	<dspace-header>
+		<title>DSpace eml-project Schema</title>
+		<contributor.author>AC</contributor.author>
+	</dspace-header>
+
+	<dc-schema>
+		<name>eml-project</name>
+		<namespace>https://eml.ecoinformatics.org/eml-project-2.2.0</namespace>
+	</dc-schema>
+
+
+	<dc-type>
+		<schema>eml-project</schema>
+		<element>title</element>
+	</dc-type>
+	<dc-type>
+		<schema>eml-project</schema>
+		<element>personnel</element>
+		<qualifier>role</qualifier>
+	</dc-type>
+	<dc-type>
+		<schema>eml-project</schema>
+		<element>abstract</element>
+	</dc-type>
+	<dc-type>
+		<schema>eml-project</schema>
+		<element>funding</element>
+	</dc-type>
+	<dc-type>
+		<schema>eml-project</schema>
+		<element>studyAreaDescription</element>
+	</dc-type>
+	<dc-type>
+		<schema>eml-project</schema>
+		<element>designDescription</element>
+	</dc-type>
+	<dc-type>
+		<schema>eml-project</schema>
+		<element>personnel</element>
+	</dc-type>
+		<dc-type>
+		<schema>eml-project</schema>
+		<element>award</element>
+	</dc-type>
+	<dc-type>
+		<schema>eml-project</schema>
+		<element>award</element>
+		<qualifier>tilte</qualifier>
+	</dc-type>
+	<dc-type>
+		<schema>eml-project</schema>
+		<element>award</element>
+		<qualifier>funderName</qualifier>
+	</dc-type>		
+
+</dspace-dc-types>

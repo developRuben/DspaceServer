@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Suggested items for eml project/personnel/roles
+-->
+
+<node id="Roles" label="Project Roles">
+<isComposedBy>
+    <node id="principalInvestigator" label="Principal Investigator" />
+    <node id="author" label="Author" />
+    <node id="contentProvider" label="Content Provider" />
+    <node id="custodianSteward" label="Custodian Steward" />
+    <node id="distributor" label="Distributor" />
+    <node id="editor" label="Editor" />
+    <node id="metadataProvider" label="Metadata Provider" />
+    <node id="originator" label="Originator" />
+    <node id="owner" label="Owner" />
+    <node id="pointOfContact" label="Point Of Contact" />
+
+    <node id="processor" label="Processor" />
+    <node id="publisher" label="Publisher" />
+    <node id="user" label="User" />
+    <node id="fieldStationManager" label="Field Station Manager" />
+    <node id="informationManager" label="Information Manager" />
+</isComposedBy>    
+</node>

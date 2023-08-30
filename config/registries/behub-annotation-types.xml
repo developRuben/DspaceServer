@@ -1,0 +1,27 @@
+<dspace-dc-types >
+
+	<dspace-header>
+		<title>DSpace eml-semantic-annotation Schema</title>
+		<contributor.author>AC</contributor.author>
+	</dspace-header>
+
+	<dc-schema>
+		<name>annotation</name>
+		<namespace>https://eml.ecoinformatics.org/semantics-2.2.0</namespace>
+	</dc-schema>
+	
+
+	<dc-type>
+		<schema>annotation</schema>
+		<element>propertyURI</element>
+	</dc-type>
+	<dc-type>
+		<schema>annotation</schema>
+		<element>valueURI</element>
+	</dc-type>
+	<dc-type>
+		<schema>annotation</schema>
+		<element>semantic</element>
+	</dc-type>
+	
+</dspace-dc-types>

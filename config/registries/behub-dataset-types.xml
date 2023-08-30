@@ -1,0 +1,140 @@
+<dspace-dc-types>
+
+    <dspace-header>
+        <title>DSpace eml-dataset Schema</title>
+        <contributor.author>AC</contributor.author>
+    </dspace-header>
+
+    <dc-schema>
+        <name>dataset</name>
+        <namespace>https://eml.ecoinformatics.org/dataset-2.2.0</namespace>
+    </dc-schema>
+
+
+    <dc-type>
+        <schema>dataset</schema>
+        <element>creator</element>
+    </dc-type>
+    <dc-type>
+        <schema>dataset</schema>
+        <element>metadataProvider</element>
+    </dc-type>
+    <dc-type>
+        <schema>dataset</schema>
+        <element>associatedParty</element>
+    </dc-type>
+    <dc-type>
+        <schema>dataset</schema>
+        <element>associatedParty</element>
+        <qualifier>role</qualifier>
+    </dc-type>
+    <dc-type>
+        <schema>dataset</schema>
+        <element>contact</element>
+    </dc-type>
+    <dc-type>
+        <schema>dataset</schema>
+        <element>publisher</element>
+    </dc-type>
+    <dc-type>
+        <schema>dataset</schema>
+        <element>project</element>
+        <qualifier>personnel</qualifier>
+    </dc-type>
+    <dc-type>
+        <schema>dataset</schema>
+        <element>title</element>
+    </dc-type>
+    <dc-type>
+        <schema>dataset</schema>
+        <element>pubDate</element>
+    </dc-type>
+    <dc-type>
+        <schema>dataset</schema>
+        <element>abstract</element>
+    </dc-type>
+    <dc-type>
+        <schema>dataset</schema>
+        <element>keywordSet</element>
+        <qualifier>keyword</qualifier>
+    </dc-type>
+
+    <dc-type>
+        <schema>dataset</schema>
+        <element>additionalInfo</element>
+    </dc-type>
+    <dc-type>
+        <schema>dataset</schema>
+        <element>intellectualRights</element>
+    </dc-type>
+
+
+    <dc-type>
+        <schema>dataset</schema>
+        <element>purpose</element>
+    </dc-type>
+    <dc-type>
+        <schema>dataset</schema>
+        <element>introduction</element>
+    </dc-type>
+    <dc-type>
+        <schema>dataset</schema>
+        <element>gettingStarted</element>
+
+    </dc-type>
+
+    <dc-type>
+        <schema>dataset</schema>
+        <element>acknowledgements</element>
+
+    </dc-type>
+
+    <dc-type>
+        <schema>dataset</schema>
+        <element>alternateIdentifier</element>
+
+    </dc-type>
+
+    <dc-type>
+        <schema>dataset</schema>
+        <element>shortName</element>
+
+    </dc-type>
+
+    <dc-type>
+        <schema>dataset</schema>
+        <element>maintenance</element>
+        <qualifier>description</qualifier>
+    </dc-type>
+    <dc-type>
+        <schema>dataset</schema>
+        <element>maintenance</element>
+        <qualifier>maintenanceUpdateFrequency</qualifier>
+    </dc-type>
+    <dc-type>
+        <schema>dataset</schema>
+        <element>maintenance</element>
+        <qualifier>changeHistory</qualifier>
+    </dc-type>
+
+    <dc-type>
+        <schema>dataset</schema>
+        <element>eml</element>
+    </dc-type>
+    <dc-type>
+        <schema>dataset</schema>
+        <element>eml</element>
+        <qualifier>validation</qualifier>
+    </dc-type>
+    <dc-type>
+        <schema>dataset</schema>
+        <element>eml</element>
+        <qualifier>validate</qualifier>
+    </dc-type>
+
+    <dc-type>
+        <schema>dataset</schema>
+        <element>keywordSet</element>
+    </dc-type>
+
+</dspace-dc-types>
